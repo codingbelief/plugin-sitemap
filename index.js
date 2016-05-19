@@ -11,7 +11,7 @@ module.exports = {
         "page": function(page) {
             if (this.options.generator == 'website') {
                 // multiple languages, if configured
-                var lang = this.isSubBook()? this.config.get('language') : null;
+                var lang = this.isSubBook()? this.config.get('language') : '';
                 if (lang) lang = lang + '/';
 
                 urls.push({
