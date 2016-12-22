@@ -1,23 +1,23 @@
 {
-    "name": "gitbook-plugin-sitemap",
+    "name": "gitbook-plugin-sitemap-codingbelief",
     "description": "Generate a sitemap for a GitBook",
     "main": "index.js",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "engines": {
         "gitbook": ">=3.0.0-pre.0"
     },
-    "homepage": "https://github.com/GitbookIO/plugin-sitemap",
+    "homepage": "https://github.com/codingbelief/plugin-sitemap",
     "keywords": ["seo"],
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-sitemap.git"
+        "url": "https://github.com/codingbelief/plugin-sitemap.git"
     },
     "dependencies": {
         "sitemap": "1.5.0"
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/GitbookIO/plugin-sitemap/issues"
+        "url": "https://github.com/codingbelief/plugin-sitemap/issues"
     },
     "gitbook": {
         "properties": {
